@@ -129,12 +129,9 @@ canvas.grid(row=1, column=0, padx=10, pady=5)
 # creating user interface area in grid way like rows and columns
 
 # first row is title
-Label(Mainframe, text="BUBBLE SORT", bg='white').grid(
+Label(Mainframe, text="bubble sort and binary search", bg='white').grid(
     row=0, column=0, padx=5, pady=5, sticky=W)
 
-# second row is to display array to be sorted
-Label(Mainframe, text=f"ARRAY TO BE SORTED {list}", bg='white').grid(
-    row=1, column=1, padx=5, pady=5, sticky=W)
 
 # creating Start Button to start the sorting visualization
 Button(Mainframe, text="START", bg="green", command=start_algorithm).grid(
